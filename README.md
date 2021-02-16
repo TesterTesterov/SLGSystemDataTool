@@ -19,7 +19,7 @@ It has the following features:
 - [Sengoku Hime 4 \~Souha Hyakkei, Hana Mamoru Chikai\~](https://vndb.org/v11237)
 - [Sengoku Hime 5 \~Senka Tatsu Haou no Keifu\~](https://vndb.org/v13636)
 
-## Russian
+## Русский
 Двуязычное (англ + рус) средство для распаковки, перепаковки, конвертации и реконвертации ресурсов движка SLG System, таких как архивов (szs, SFP (SPD+SPL), картинок (tig, tic, TIM, alb) и аудиофайлов (VOI). В справке средства также приведены некоторые данные по видеоформатам движка (mdm, mda), для редактирования которых сие средство не требуется. SLG System есть движок, используемый в ряде визуальных новелл и японских ролевых игр (jRPG), в частности в легендарных сериях Принцессы Сэнгоку, Принцессы Троецарствия.
 
 Имеет следующие возможности:
@@ -47,9 +47,26 @@ It has the following features:
 4. Choose the files or/and directories.
 5. Select the command and push it's button.
 
-## Russian
+## Русский
 1. Выберите формат файлов, что вы конвертировать/реконвертировать/извлечь/запаковать жаждете.
 2. Выберите версию (коли надобно).
 3. Выберите режим (коли надобно, пофайловый али попапковый.
 4. Выберите файлы и/иль директории (папки).
 5. Выберите команду и нажмите на соответствующую кнопку.
+
+# Some information about SLG System engine / Некоторая информация про движок SLG System
+## English
+SLG System Engine is not very popular, but also not very obsqure engine, used in Gesen 18 (may be not only whose) games. It's in fact some sort of modified Tenka Touitsu ADVANCE engine. There are a lot of good visual novels and jRPG's writted on it, such as Sengoku Hime and Sankoku Hime series.
+
+Oldest versions of it, such as Shihen 69's version, uses no specific archives. For images it has exotic alb format, for audiodata — VOI format.
+In some versions older, such as in Sengoku Hime 1, alb no londer used for images. Instead there are tig, TIM and probably tic formats.
+Later version, such as Sengoku Hime 3's, uses also szs and SFP (SPD+SPL) archives.
+And the latest versions uses also a mdm and mda video files. Games on these versions, such as Sengoku Hime 4, has new file structure.
+
+## Русский
+SLG System является не слишком популярным, но и не слишком неизвестный движок, используемый в играх Gesen 18 (а, может, и не только). На самом деле является своего рода модификацией движка Тэнка то:ицу ADVANCE. На нём написано немало сдобный визуальных новелл и японских ролевых игр (jRPG), например серии Принцессы Сэнгоку и Принцессы Троецарствия.
+
+Старейшие его версии не используют каких-либо особенных архивных форматов. Для картинок в них используется своеобразный формат alb, а для звуков — VOI.
+Движок несколькими версиями спустя, например в Принцессах Сэнгоку 1, уже не использует alb. Вместо них применяются tig, TIM и, вероятно, tic.
+Более поздние версии, как, например, в Принцессах Сэнгоку 3, используют также архивы szs и SFP (SPD+SPL).
+И последние же версии используют видеофайлы mdm и mda. У игр на сих версиях, например Принцессах Сэнгоку 4, структура файлов уже иная.
