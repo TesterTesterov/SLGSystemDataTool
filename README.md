@@ -13,11 +13,11 @@ It has the following features:
 
 ### Tested with
 - [Shihen 69 \~Shin'en no Messiah\~](https://vndb.org/v1117)
-- [Sengoku Hime ~Senran no Yo ni Honoo Tatsu~](https://vndb.org/v1120)
-- [Sengoku Hime 2 ~Senran no Yo, Gun'yuu Arashi no Gotoku~](https://vndb.org/v3071)
-- [Sengoku Hime 3 ~Tenka o Kirisaku Hikari to Kage~](https://vndb.org/v6763)
-- [Sengoku Hime 4 ~Souha Hyakkei, Hana Mamoru Chikai~](https://vndb.org/v11237)
-- [Sengoku Hime 5 ~Senka Tatsu Haou no Keifu~](https://vndb.org/v13636)
+- [Sengoku Hime \~Senran no Yo ni Honoo Tatsu\~](https://vndb.org/v1120)
+- [Sengoku Hime 2 \~Senran no Yo, Gun'yuu Arashi no Gotoku\~](https://vndb.org/v3071)
+- [Sengoku Hime 3 \~Tenka o Kirisaku Hikari to Kage\~](https://vndb.org/v6763)
+- [Sengoku Hime 4 \~Souha Hyakkei, Hana Mamoru Chikai\~](https://vndb.org/v11237)
+- [Sengoku Hime 5 \~Senka Tatsu Haou no Keifu\~](https://vndb.org/v13636)
 
 ## Russian
 Двуязычное (англ + рус) средство для распаковки, перепаковки, конвертации и реконвертации ресурсов движка SLG System, таких как архивов (szs, SFP (SPD+SPL), картинок (tig, tic, TIM, alb) и аудиофайлов (VOI). В справке средства также приведены некоторые данные по видеоформатам движка (mdm, mda), для редактирования которых сие средство не требуется. SLG System есть движок, используемый в ряде визуальных новелл и японских ролевых игр (jRPG), в частности в легендарных сериях Принцессы Сэнгоку, Принцессы Троецарствия
