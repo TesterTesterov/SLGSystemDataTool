@@ -12,7 +12,7 @@ It has the following features:
 - Reconvertation standart images in directory.
 
 ### Tested with
-- [Shihen 69 ~Shin'en no Messiah~](https://vndb.org/v1117)
+- [Shihen 69 \~Shin'en no Messiah\~](https://vndb.org/v1117)
 - [Sengoku Hime ~Senran no Yo ni Honoo Tatsu~](https://vndb.org/v1120)
 - [Sengoku Hime 2 ~Senran no Yo, Gun'yuu Arashi no Gotoku~](https://vndb.org/v3071)
 - [Sengoku Hime 3 ~Tenka o Kirisaku Hikari to Kage~](https://vndb.org/v6763)
