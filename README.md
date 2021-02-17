@@ -74,34 +74,54 @@ SLG System является не слишком популярным, но и н
 # Some information about formats / Некоторая информация о форматах
 ## English
 ### szs
-
+Standart SLG System's archive, it often contains scripts, images and such data.
+Contains non-compressed, but slightly obfusificated (xor 0x90) data.
 ### SFP (SPD+SPL)
-
+Special bicomponental SLG System's music archive, it contains only (or mostly) audio data. Still theoretically it can contain other types of data.
+SPD component contains data, while SPL — it's list.
+Contains raw data.
 ### tig
-
+Obfusificated png. Most common image type in games based on SLG System (with exception of ealiest versions).
+New byte = old byte + key, there each next key = (last key * a + b) >> 16.
 ### tic
-
+Obfusificated jpg (same type as tig). Very rare. I don't remember myself there you can find one.
 ### TIM
-
+Special image of SLG System. Has some technical data, may be encrypted with different keys per image.
+Encrypted closely as tig or tic, but the image data itself's keys are rotated in range 0x1000.
 ### alb
-
+Very exotic and awfully *compressed* png image, commonly used in games on the oldest SLG System's versions.
+It's so *heavily encrypted* that alb size doubles source png size! **Never** repeat the mistakes of the format developers, seriously!
+I won't even explain about this awful *compression*. Look in this mess yourself if you want.
+This tool creates better alb (which games on the engine understands), which size is about source png's.
 ### VOI
-
+Commonly used SLG System's audio format. Just some technical data and raw ogg.
 ### mdm & mda
+Videoformat, used in games on latest SLG System. Probably just a simple mpeg, so you don't need any specific tools to convert it.
+Encoded by TMPGEnc, as stated in files.
 
 ## Русский
 ### szs
-
+Стандартный архив ресурсов движка SLG System. Часто содержит скрипты, картинки и прочее подобное.
+Содержит несжатые, но немного обфусицированные (xor 0x90) данные.
 ### SFP (SPD+SPL)
-
+Специальный двукомпонентный архив движка SLG System. Содержит только (или почти только) аудиоданные, однако в теории может содержать и другие типы данных.
+Компонент SDP содержит сами данные, в то время как SPL — их список.
+Данные не обфусифицированы.
 ### tig
-
+Обфусифицированная png. Наиболее частый формат картинок игр на движке SLG System (кроме старейших версий).
+Новый байт = старый байт + ключ, где каждый следующий кюч = (прошлый ключ * a + b) >> 16.
 ### tic
-
+Обфусифицированная (так же, как и tig) jpg. Крайне редко встречается. Даже сам не помню, где можно найти представителя.
 ### TIM
-
+Особая картинка движка SLG System. Вмещает некоторые технические данные, каждая картинка может быть зашифрована своим ключём.
+Шифрование похоже на таковое у tig и tic, но у самих данных изображения ключи повторяются в диапазоне 0x1000.
 ### alb
-
+Вельми экзотичный формат, ужасно *сжатая* картинка png, что повсеместно используется в играх на старейших разновидностях SLG System.
+Настолько *могуче сжата*, что размер alb вдвое больше, чем у исходной зтп! **Никогда** не повторяйте ошибок горе-разработчиков формата, серьёзно!
+Даже не буду объяснять про сей ужасный алгоритм *сжатия*. Посмотрите на сей бардак сами, коль желаете.
+Сие средство создаёт лучшие alb (кои игры на движке понимают) размером примерно с исходные png.
 ### VOI
-
+Повсеместно используемый аудиоформат движка SLG System. Просто некоторые технические данные в сочетании с простым ogg.
 ### mdm & mda
+Видеоформат, используемый в играх на последних версиях SLG System. Судя по всему, простой mpeg, так что для его конвертации не потребуется никаких специальных средств.
+Закодирован, как указано в файлах, с помощью TMPGEnc.
