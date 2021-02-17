@@ -1,6 +1,6 @@
 # SLGSystemDataTool
 ## English
-Dual languaged (eng+rus) tool for extracting, repacking, converting and reconverting resources of SLG System Engine, such as archives (szs, SFP (SPD+SPL)), images (tig, tic, TIM, alb) and audio (VOI). It has some information about video (mdm, mda) too (the tool is not needed for it's editing). SLG System is an engine, used in some visual novels and jRPG's, such is legendary series Sengoku Hime and Sankoku Hime.
+Dual languaged (eng+rus) tool for extracting, repacking, converting and reconverting resources of SLG System Engine, such as archives (szs, SFP (SPD+SPL)), images (tig, tic, TIM, alb) and audio (VOI). It has some information about video (mdm, mda) too (the tool is not needed for it's editing). SLG System is an engine, used in some visual novels and jRPG's, such is legendary series Sengoku Hime and Sangoku Hime.
 
 It has the following features:
 - Help module.
