@@ -81,7 +81,7 @@ Special bicomponental SLG System's music archive, it contains only (or mostly) a
 SPD component contains data, while SPL — it's list.
 Contains raw data.
 ### tig
-Obfusificated png. Most common image type in games based on SLG System (with exception of ealiest versions).
+Obfusificated png. Most common image type in games based on SLG System (with exception of earliest versions).
 New byte = old byte + key, there each next key = (last key * a + b) >> 16.
 ### tic
 Obfusificated jpg (same type as tig). Very rare. I don't remember myself there you can find one.
@@ -104,7 +104,7 @@ Encoded by TMPGEnc, as stated in files.
 Стандартный архив ресурсов движка SLG System. Часто содержит скрипты, картинки и прочее подобное.
 Содержит несжатые, но немного обфусицированные (xor 0x90) данные.
 ### SFP (SPD+SPL)
-Специальный двукомпонентный архив движка SLG System. Содержит только (или почти только) аудиоданные, однако в теории может содержать и другие типы данных.
+Специальный двухкомпонентный архив движка SLG System. Содержит только (или почти только) аудиоданные, однако в теории может содержать и другие типы данных.
 Компонент SDP содержит сами данные, в то время как SPL — их список.
 Данные не обфусифицированы.
 ### tig
@@ -117,7 +117,7 @@ Encoded by TMPGEnc, as stated in files.
 Шифрование похоже на таковое у tig и tic, но у самих данных изображения ключи повторяются в диапазоне 0x1000.
 ### alb
 Вельми экзотичный формат, ужасно *сжатая* картинка png, что повсеместно используется в играх на старейших разновидностях SLG System.
-Настолько *могуче сжата*, что размер alb вдвое больше, чем у исходной зтп! **Никогда** не повторяйте ошибок горе-разработчиков формата, серьёзно!
+Настолько *могуче сжата*, что размер alb вдвое больше, чем у исходной png! **Никогда** не повторяйте ошибок горе-разработчиков формата, серьёзно!
 Даже не буду объяснять про сей ужасный алгоритм *сжатия*. Посмотрите на сей бардак сами, коль желаете.
 Сие средство создаёт лучшие alb (кои игры на движке понимают) размером примерно с исходные png.
 ### VOI
