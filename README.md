@@ -11,6 +11,8 @@ It has the following features:
 - Convertation engine images in directory.
 - Reconvertation standart images in directory.
 
+To work with SLG System scripts use [SLGSystemScriptTool](https://github.com/TesterTesterov/SLGSystemScriptTool).
+
 ### Tested with
 - [Shihen 69 \~Shin'en no Messiah\~](https://vndb.org/v1117)
 - [Sengoku Hime \~Senran no Yo ni Honoo Tatsu\~](https://vndb.org/v1120)
@@ -30,6 +32,8 @@ It has the following features:
 - Реконвертация стандартной картинки и аудиофайла в таковую у движка.
 - Конвертация картинок и аудиофайлов движка в директории.
 - Реконвертация стандартных картинок и аудиофайлов в директории.
+
+Для редактирования скриптов движка SLG System используйте [SLGSystemScriptTool](https://github.com/TesterTesterov/SLGSystemScriptTool).
 
 ### Протестировано с
 - [Псалтырь 69: Мессия пустоты](https://vndb.org/v1117)
